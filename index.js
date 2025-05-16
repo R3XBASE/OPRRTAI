@@ -89,7 +89,7 @@ async function generateAIResponse(message, userId) {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
-          'HTTP-Referer': 'https://my-telegram-ai-bot.vercel.app', // Ganti dengan URL vercel Anda
+          'HTTP-Referer': 'https://oprrtai.vercel.app/', // Ganti dengan URL vercel Anda
           'X-Title': 'Telegram AI Bot'
         }
       }
